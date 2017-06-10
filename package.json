@@ -1,0 +1,31 @@
+{
+  "name": "rocket-chat",
+  "version": "1.0.0",
+  "description": "Private socket-based communication",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryannhg/rocket-chat.git"
+  },
+  "keywords": [
+    "socket",
+    "io",
+    "chat"
+  ],
+  "author": "Ryan Haskell-Glatz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryannhg/rocket-chat/issues"
+  },
+  "homepage": "https://github.com/ryannhg/rocket-chat#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  }
+}
